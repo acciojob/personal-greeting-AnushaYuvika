@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <p>Enter your name:</p>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
-      {name && <h1>Hello, {name}!</h1>}
+      {name && <h1>Hello {name}!</h1>}
     </div>
   )
 }
